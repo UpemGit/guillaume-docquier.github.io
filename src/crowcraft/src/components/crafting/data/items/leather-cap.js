@@ -1,4 +1,4 @@
-import { Item, CraftingMaterial, Rarities, Professions } from "../item";
+import { Item, CraftingMaterial, Rarities, Professions } from "components/crafting/data/item";
 import { LeatherSquares } from "./leather-squares";
 import { MetalRivets } from "./metal-rivets";
 import { EtherealDust } from "./ethereal-dust";

@@ -1,4 +1,4 @@
-import { CustomizableComponent, CraftingMaterial, Rarities, Professions } from "../item";
+import { CustomizableComponent, CraftingMaterial, Rarities, Professions } from "components/crafting/data/item";
 import { Ore, Aurelium, Copper, Iron, Silver, Tin } from "./ores";
 import { Coal } from "./coal";
 
@@ -48,11 +48,11 @@ class StealthMetalRivets extends MetalRivets {
     }
 }
 
-class AnyMetalRivets extends MetalRivets {
+class OutOfCombatHealthRegenMetalRivets extends MetalRivets {
     constructor() {
         super(
-            "anyMetalRivets",
-            "metal rivets (any)",
+            "outOfCombatHealthRegenMetalRivets",
+            "metal rivets (out of combat health regeneration))",
             [
                 new CraftingMaterial(5, new Ore()),
                 new CraftingMaterial(3, new Ore()),
@@ -62,6 +62,6 @@ class AnyMetalRivets extends MetalRivets {
     }
 
     getCustomizationEffect() {
-        return "any";
+        return "out of combat health regeneration";
     }
 }

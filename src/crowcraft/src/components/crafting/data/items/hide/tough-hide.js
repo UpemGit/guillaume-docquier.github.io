@@ -1,11 +1,11 @@
 import { Rarities } from "components/crafting/data/item";
 import { Hide } from "./hide";
 
-export class Durable extends Hide {
+export class ToughHide extends Hide {
     constructor() {
         super(
-            "durable",
-            "durable",
+            "toughHide",
+            "tough hide",
             [],
             [Rarities.Common, Rarities.Uncommon, Rarities.Rare, Rarities.Epic, Rarities.Legendary],
             [],

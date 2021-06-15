@@ -1,4 +1,4 @@
-import { CustomizableComponent, CraftingMaterial, Rarities, Professions } from "../item";
+import { CustomizableComponent, CraftingMaterial, Rarities, Professions } from "components/crafting/data/item";
 import { Hide, Soft, Strong, Tough, Durable, Flexible } from "./hide";
 
 export class LeatherSquares extends CustomizableComponent {
@@ -40,7 +40,7 @@ export class LeatherSquares extends CustomizableComponent {
 class LimberCoriumLeatherSquares extends LeatherSquares {
     constructor() {
         super(
-            "limberCorium",
+            "limberCoriumLeatherSquares",
             "leather squares (limber corium)",
             [
                 new CraftingMaterial(4, new Durable()),
@@ -58,7 +58,7 @@ class LimberCoriumLeatherSquares extends LeatherSquares {
 class SoftCoriumLeatherSquares extends LeatherSquares {
     constructor() {
         super(
-            "softCorium",
+            "softCoriumLeatherSquares",
             "leather squares (soft corium)",
             [
                 new CraftingMaterial(4, new Durable()),
@@ -76,7 +76,7 @@ class SoftCoriumLeatherSquares extends LeatherSquares {
 class SturdyCoriumLeatherSquares extends LeatherSquares {
     constructor() {
         super(
-            "sturdyCorium",
+            "sturdyCoriumLeatherSquares",
             "leather squares (sturdy corium)",
             [
                 new CraftingMaterial(4, new Durable()),
@@ -94,7 +94,7 @@ class SturdyCoriumLeatherSquares extends LeatherSquares {
 class StoutCoriumLeatherSquares extends LeatherSquares {
     constructor() {
         super(
-            "stoutCorium",
+            "stoutCoriumLeatherSquares",
             "leather squares (stout corium)",
             [
                 new CraftingMaterial(4, new Durable()),
@@ -112,7 +112,7 @@ class StoutCoriumLeatherSquares extends LeatherSquares {
 class CoriumLeatherSquares extends LeatherSquares {
     constructor() {
         super(
-            "Corium",
+            "CoriumLeatherSquares",
             "leather squares (corium)",
             [
                 new CraftingMaterial(4, new Flexible()),
@@ -130,7 +130,7 @@ class CoriumLeatherSquares extends LeatherSquares {
 class ChamoiseLeatherSquares extends LeatherSquares {
     constructor() {
         super(
-            "Chamoise",
+            "ChamoiseLeatherSquares",
             "leather squares (chamoise)",
             [
                 new CraftingMaterial(4, new Flexible()),
@@ -148,7 +148,7 @@ class ChamoiseLeatherSquares extends LeatherSquares {
 class SturdyBicastLeatherSquares extends LeatherSquares {
     constructor() {
         super(
-            "sturdyBicast",
+            "sturdyBicastLeatherSquares",
             "leather squares (sturdy bicast)",
             [
                 new CraftingMaterial(4, new Flexible()),
@@ -166,7 +166,7 @@ class SturdyBicastLeatherSquares extends LeatherSquares {
 class LimberGrainLeatherSquares extends LeatherSquares {
     constructor() {
         super(
-            "limberGrain",
+            "limberGrainLeatherSquares",
             "leather squares (limber grain)",
             [
                 new CraftingMaterial(4, new Flexible()),
@@ -184,7 +184,7 @@ class LimberGrainLeatherSquares extends LeatherSquares {
 class BicastLeatherSquares extends LeatherSquares {
     constructor() {
         super(
-            "Bicast",
+            "BicastLeatherSquares",
             "leather squares (bicast)",
             [
                 new CraftingMaterial(4, new Soft()),
@@ -202,7 +202,7 @@ class BicastLeatherSquares extends LeatherSquares {
 class SuedeLeatherSquares extends LeatherSquares {
     constructor() {
         super(
-            "Suede",
+            "SuedeLeatherSquares",
             "leather squares (suede)",
             [
                 new CraftingMaterial(4, new Soft()),
